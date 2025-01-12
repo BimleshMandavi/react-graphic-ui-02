@@ -50,7 +50,7 @@ function FeaturesSection() {
                 transition={{ duration: 0.6, delay: 0.3 + index * 0.2 }}
               >
                 <img src={feature.icon} alt={feature.title} className="w-16 h-16 mb-4 text-justify" />
-                <h3 className="text-4xl  mb-2 ">{feature.title}</h3>
+                <h3 className="text-3xl  mb-2 ">{feature.title}</h3>
                 <p className="text-xl text-gray-300 text-justify ">{feature.description}</p>
               </motion.div>
             ))}
