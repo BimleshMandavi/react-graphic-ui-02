@@ -137,7 +137,7 @@ export default function TakeAdvantageSection() {
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-8">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-8 sm:h-[100vh] overflow-y-scroll">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}

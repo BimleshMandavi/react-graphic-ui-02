@@ -61,14 +61,14 @@ import { SiAdobe } from "react-icons/si";
     </motion.section> */}
 
 
-    <motion.section className="bg-[#070324] py-10 px-6 sm:py-16 sm:px-20 pt-5">
+    <motion.section className="bg-[#070324] py-10 px-5 sm:py-16 sm:px-20 pt-5">
 
       <div className="sm:flex  sm:justify-around sm:items-center text-white">
 
         <div>
 
             <motion.h1
-            className="text-4xl font-raleway  md:text-7xl  mb-6 space-y-4"
+            className="text-4xl font-raleway sm:text-6xl lg:text-7xl h-full  mb-6 space-y-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}

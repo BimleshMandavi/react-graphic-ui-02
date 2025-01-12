@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {  GiHamburgerMenu } from "react-icons/gi";
+import { LuArrowUpRight } from "react-icons/lu";
 // import Accordion from '@mui/material/Accordion';
 // import AccordionSummary from '@mui/material/AccordionSummary';
 // import AccordionDetails from '@mui/material/AccordionDetails';
@@ -28,25 +29,30 @@ export default function Navbar() {
       transition={{ duration: 0.6 }}
     >
       {/* Left Navigation Items */}
-      <ul className="hidden md:flex space-x-8">
-
-  {/* <Accordion>
-  
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1-content"
-          id="panel1-header"
-        >
-          <Typography component="span">Accordion 1</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
-        </AccordionDetails>
-      </Accordion> */}
+     <ul className="hidden md:flex space-x-8">
         {navItems.map((item) => (
-          <li key={item.name} className="group relative">
-            <span className="cursor-pointer">{item.name}</span>
+          <li key={item.name} className="group relative sm:ml-10">
+            <span className="cursor-pointer flex items-center font-raleway text-xl gap-2">
+              {item.name}
+              <span className="cursor-pointer">
+                {/* SVG Arrow */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                  className="w-4 h-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </span>
+            </span>
+
             {/* Dropdown Menu */}
             <div className="absolute left-0 hidden group-hover:block bg-[#1e1c3d] py-2 mt-2 rounded shadow-lg">
               {item.subItems.map((subItem) => (
@@ -70,7 +76,11 @@ export default function Navbar() {
           href="#"
           className="hidden md:inline-block border border-white px-4 py-1 rounded hover:bg-white hover:text-[#0f0e24] transition"
         >
-          Hire Talent ↗
+          <div className="flex items-center gap-2">
+               <p>Hire Talent</p>
+           <LuArrowUpRight />
+          </div>
+      
         </a>
         <div className="flex items-center justify-between gap-24">
         <a
@@ -113,7 +123,12 @@ export default function Navbar() {
               ))}
             </div>
           ))}
-          <a href="#" className="block border border-white px-4 py-2 rounded text-center">Hire Talent ↗</a>
+          <a href="#" className="block border border-white px-4 py-2 rounded text-center">
+            <div className="flex items-center justify-center gap-2">
+               <p>Hire Talent</p>
+           <LuArrowUpRight />
+          </div>
+            </a>
           <a href="#" className="block bg-blue-600 px-4 py-2 rounded text-center">Get Started</a>
         </motion.div>
       )}
