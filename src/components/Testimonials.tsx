@@ -46,7 +46,7 @@ const Testimonials = () => {
           disabled={startIndex === 0} 
           className={`p-2 rounded-full border ${startIndex === 0 ? 'bg-gray-300 text-white' : 'bg-black text-white'}`}
         >
-          <FaArrowLeft className='w-16 h-16' />
+          <FaArrowLeft className='w-16 h-16 ' />
         </button>
         <button
           onClick={next}
