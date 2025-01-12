@@ -8,6 +8,7 @@ export default {
         raleway: ["Raleway", "sans-serif"],
         sans: ["sans", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
     },
   },

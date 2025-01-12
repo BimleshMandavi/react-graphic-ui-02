@@ -1,10 +1,15 @@
-
-"use client";
+import { useState } from 'react';
 import { motion } from "framer-motion";
 
 const CreativeTalentSection = () => {
+    const [activeButton, setActiveButton] = useState('candidates');
+
+  const handleClick = (button: string) => {
+    setActiveButton(button);
+  };
+
   return (
-    <section className="py-12 bg-gray-50 md:pl-1 overflow-x-hidden">
+    <section className="py-12 bg-[#f9f4eb] md:pl-1 overflow-x-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
         {/* Left Section */}
         <motion.div
@@ -14,11 +19,17 @@ const CreativeTalentSection = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="flex text-xl mb-4 justify-center sm:justify-start">
-            <div className="text-[#1600ea] cursor-pointer border-b-4 border-blue-600">
-              <p className="px-2">For Candidates</p>
+            <div
+              className={`cursor-pointer px-2 ${activeButton === 'candidates' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+              onClick={() => handleClick('candidates')}
+            >
+              <p>For Candidates</p>
             </div>
-            <div className="text-gray-400 cursor-pointer border-b-2 border-grey-500 pb-4">
-              <p className="px-2">For Enterprises</p>
+            <div
+              className={`cursor-pointer px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+              onClick={() => handleClick('enterprises')}
+            >
+              <p>For Enterprises</p>
             </div>
           </div>
           <div className="sm:py-4">
@@ -27,13 +38,13 @@ const CreativeTalentSection = () => {
             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
           </h1>
-          <p className="text-gray-700 mb-6 w-[90%] sm:w-[78%] pt-6">
+          <p className="text-[#000000] text-xl text-justify mb-6 w-[90%] sm:w-[78%] pt-6">
             Join an exclusive talent pool and connect with leading brands
             searching for top creative professionals. Showcase your expertise,
             land your dream role, and redefine your career with endless
             opportunities.
           </p>
-          <ul className="list-disc pl-8 text-gray-700 mb-6">
+          <ul className="list-disc pl-8 text-xl  text-[#000000] text-justify mb-6">
             <li>Get Placed with Top Brands Like Google and Amazon.</li>
             <li>Showcase Your Creative Talent to the World.</li>
             <li>Get Hired for Projects That Elevate Your Career.</li>

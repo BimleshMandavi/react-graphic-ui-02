@@ -38,7 +38,7 @@ const Testimonials = () => {
 
   return (
     
-    <div className="p-6 sm:px-28 bg-[#ffffff">
+    <div className="p-6 sm:px-28 bg-[#ffffff]">
       <h2 className=" sm:text-6xl  mb-6">Clients are Pitching about us.</h2>
       <div className="flex  gap-4 mb-4">
         <button 
