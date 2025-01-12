@@ -94,7 +94,7 @@ const CaseStudySection = () => {
             <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="rounded-lg shadow-lg w-[400px] sm:w-[490px] md:w-[530px] h-auto sm:mr-4"
+              className="rounded-lg shadow-lg w-[400px] sm:w-[490px] md:w-[530px] h-[510px] sm:mr-4"
             />
           </motion.div>
         </div>
