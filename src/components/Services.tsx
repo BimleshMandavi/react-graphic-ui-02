@@ -161,7 +161,7 @@ export default function TakeAdvantageSection() {
         <motion.button
           onClick={toggleVisibility}
           
-          className="mt-8 mx-auto block border border-black hover:bg-blue-600 text-black hover:text-white py-2 px-6 rounded"
+          className="mt-8 mx-auto block border border-black hover:bg-blue-600 text-black text-lg font-semibold hover:text-white py-2 px-6 rounded"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}

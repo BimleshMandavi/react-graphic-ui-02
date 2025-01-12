@@ -30,13 +30,13 @@ const toggleQuestion = (id: number) => {
         {questions.map(({ id, question, answer }) => (
           <li key={id} className="border-b">
             <div
-              className="flex items-center justify-between py-2 cursor-pointer"
+              className="flex items-center text-center justify-between py-2 cursor-pointer"
               onClick={() => toggleQuestion(id)}
             >
-              <span className="text-lg mb-8 font-semibold break-words sm:text-3xl">
+              <span className="text-lg mb-8 font-semibold  break-words sm:text-3xl">
                 {id}. {question}
               </span>
-              <button className="text-white font-bold text-xl sm:text-3xl lg:text-3xl rounded-full w-10 h-10 bg-[#1600ea] t">
+              <button className="text-white font-bold text-xl text-center sm:text-3xl lg:text-3xl rounded-full w-10 h-10 bg-[#1600ea] t">
                 {openQuestion === id ? '×' : '+'}
               </button>
             </div>

@@ -9,7 +9,7 @@ export default function BenefitSection() {
     <div className="bg-[#1600ea] text-white sm:py-12 sm:px-8 pt-9">
 
       {/* Benefit Section */}
-      <div className="text-center mb-10">
+      <div className="mb-10 sm:">
         <h2 className="text-xl md:text-6xl ">How we will benefit you.</h2>
       </div>
 
@@ -22,7 +22,7 @@ export default function BenefitSection() {
         >
          
           <div className='sm:w-[70%] sm:p-20 '>
-          <h3 className="text-4xl font-bold mb-2 sm:mt-4 sm:mb-10">Hire Us or On-board Top 1% Creative Talent ✨</h3>
+          <h3 className="text-4xl font-bold font-Roboto mb-2 sm:mt-4 sm:mb-10">Hire Us or On-board Top 1% Creative Talent ✨</h3>
           <p className="text-xl mb-4">
             Collaborate with our expert team for tailored, high-quality
 designs aligned with your brand’s goals, or onboard top
