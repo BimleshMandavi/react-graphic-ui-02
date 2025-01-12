@@ -98,13 +98,13 @@ import { SiAdobe } from "react-icons/si";
         <motion.section initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}>
-          <img src="/pic-19.jpeg" alt="Hero Image" className='w-[640px] h-[600px]' />
+          <img src="/pic-19.jpeg" alt="Hero Image" className='w-[630px] h-[600px]' />
         </motion.section>
 
       </div>
-     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-20  ml-20">
-  <SiAdobe className="w-10 h-10" />
-  <span className="text-4xl font-ubuntu ">Adobe</span>
+     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-20  ml-20 translate-x-16">
+  <SiAdobe className="w-9 h-9" />
+  <span className="text-3xl font-ubuntu ">Adobe</span>
 </div>
   
     </motion.section>
