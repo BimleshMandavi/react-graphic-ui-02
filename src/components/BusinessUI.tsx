@@ -11,23 +11,29 @@ function BusinessUI() {
         </h1>
         <div className="sm:flex justify-center gap-8 text-xl pt-12 pb-8">
           <div className="text-center">
-            <h2 className="text-4xl sm:text-6xl mt-8 ">$10M+ </h2>
+            <h2 className="text-4xl font-bold sm:text-6xl mt-8 ">$10M+ </h2>
             <p>Revenue for Clients</p>
           </div>
-          <span className="text-5xl sm:text-9xl font-[4] my-4 sm:my-0">|</span>
+          <p style={{width:"1px", height:"130px", backgroundColor:"white"}}></p>
+          {/* <span className="text-5xl sm:text-9xl font-[4] my-4 sm:my-0">&#x2502;</span> */}
           <div className="text-center">
-            <h2 className="text-4xl sm:text-6xl mt-8">1500+ </h2>
+            <h2 className="text-4xl font-bold  sm:text-6xl mt-8">1500+ </h2>
             <p>Projects Delivered</p>
           </div>
-          <a className="text-5xl sm:text-9xl font-[4] my-4 sm:my-0">|</a>
+          <a style={{width:"1px", height:"130px", backgroundColor:"white"}}></a>
+          {/* <div className="w-[1px]  h-[100px] bg-white"></div> */}
+
+          {/* <a className="text-5xl sm:text-9xl font-[4]  my-4 sm:my-0">|</a> */}
+          <div ></div>
+
           <div className="text-center">
-            <h2 className="text-4xl sm:text-6xl mt-8">10k+</h2>
+            <h2 className="text-4xl font-bold sm:text-6xl mt-8">10k+</h2>
             <p>Expert Designers</p>
           </div>
         </div>
       </section>
 
-      <hr className="w-[895px] mx-auto sm:mx-60 mb-8" />
+      <hr className="w-[896px] mx-auto  sm:mx-60 mb-8" />
 
       <section className="text-center py-12">
         <h2 className="text-4xl sm:text-6xl mb-24">

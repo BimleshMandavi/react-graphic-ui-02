@@ -64,6 +64,7 @@ const CaseStudySection = () => {
             <h3 className="text-xl sm:text-3xl lg:text-5xl  space-x-10 tracking-widest leading-8 mb-8">
               "Reimagining a Legacy: Redefining Top's India Brand Identity and Strategy for the Modern Consumer"
             </h3>
+            <hr />
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start">
               <div>
                 <p className="text-3xl sm:text-5xl text-green-400">250%</p>

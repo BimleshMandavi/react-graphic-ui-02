@@ -61,14 +61,14 @@ import { SiAdobe } from "react-icons/si";
     </motion.section> */}
 
 
-    <motion.section className="bg-[#070324] py-10 px-5 sm:py-16 sm:px-20 pt-5">
+    <motion.section className="bg-[#070324] py-10 px-5 sm:py-16 sm:px-24 pt-5">
 
       <div className="sm:flex  sm:justify-around sm:items-center text-white">
 
         <div>
 
             <motion.h1
-            className="text-4xl font-raleway sm:text-6xl lg:text-7xl h-full  mb-6 space-y-4"
+            className="text-4xl font-raleway sm:text-5xl lg:text-7xl h-full  mb-6 space-y-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -76,7 +76,7 @@ import { SiAdobe } from "react-icons/si";
            <p className='mb-3'>Driving Sales</p> <p className='mb-3'> and Capturing</p><p className='mb-3'> Attention Through </p><div className="text-yellow-400">Graphic Designs</div>
           </motion.h1>
            <motion.p
-            className="text-lg md:text-xl mb-6 sm:ml-8 sm:text-start py-3 leading-relaxed"
+            className="text-lg md:text-xl mb-6 sm:ml-4 sm:text-start py-3 leading-relaxed"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}

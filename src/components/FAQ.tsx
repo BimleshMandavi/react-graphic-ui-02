@@ -23,7 +23,7 @@ const toggleQuestion = (id: number) => {
 
   return (
     <div className="w-full mx-auto mt-16 px-4 sm:px-6 mb-16 md:px-28">
-      <h1 className="text-6xl font-semibold text-center mb-6">
+      <h1 className="text-6xl font-semibold  mb-6">
         Resolve your Doubts here.
       </h1>
       <ul className="space-y-8 sm:pt-14 sm:text-5xl">
@@ -36,7 +36,7 @@ const toggleQuestion = (id: number) => {
               <span className="text-lg mb-8 font-semibold break-words sm:text-3xl">
                 {id}. {question}
               </span>
-              <button className="text-white font-bold text-xl sm:text-3xl lg:text-3xl rounded-full w-10 h-10 bg-[#1600ea] t">
+              <button className="text-white text-center font-bold text-xl sm:text-3xl lg:text-3xl rounded-full mb-10 w-12 h-12 bg-[#1600ea] t">
                 {openQuestion === id ? '×' : '+'}
               </button>
             </div>

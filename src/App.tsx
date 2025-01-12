@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <div className="bg-[#FAF6F0] overflow-x-hidden">
+    <div className=" overflow-x-hidden">
       <Nav_01 />
     <Header />
       <HeroSection />

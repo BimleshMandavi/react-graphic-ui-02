@@ -137,11 +137,11 @@ export default function TakeAdvantageSection() {
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-8 sm:h-[100vh] overflow-y-scroll">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4 sm:h-[100vh] overflow-y-scroll">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-6 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
+              className="bg-white p-6 sm:ml-4 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}

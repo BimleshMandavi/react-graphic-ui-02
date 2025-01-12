@@ -38,20 +38,20 @@ const Testimonials = () => {
 
   return (
     
-    <div className="p-6 sm:px-28 bg-[#ffffff">
+    <div className="p-6 sm:px-28 bg-gray-50 ">
       <h2 className=" sm:text-6xl  mb-6">Clients are Pitching about us.</h2>
       <div className="flex  gap-4 mb-4">
         <button 
           onClick={prev} 
           disabled={startIndex === 0} 
-          className={`p-2 rounded-full border ${startIndex === 0 ? 'bg-gray-300 text-white' : 'bg-black text-white'}`}
+          className={`p-1 rounded-full border-4 ${startIndex === 0 ? 'text-gray-300 bg-text-white' : 'bg-black text-white'}`}
         >
-          <FaArrowLeft className='sm:w-16 sm:h-16' />
+          <FaArrowLeft className='sm:w-16  sm:h-16' />
         </button>
         <button
           onClick={next}
           disabled={startIndex + itemsPerPage >= testimonials.length}
-          className={`p-2 rounded-full ${startIndex + itemsPerPage >= testimonials.length ? 'bg-gray-300 text-white' : 'bg-black text-white'}`}
+          className={`p-1 border-4 border-gray-300  rounded-full ${startIndex + itemsPerPage >= testimonials.length ? 'text-gray-300 bg-text-white' : 'bg-black text-white'}`}
         >
           <FaArrowRight className='sm:w-16 sm:h-16' />
         </button>
