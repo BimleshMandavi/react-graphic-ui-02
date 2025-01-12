@@ -7,6 +7,8 @@ export default {
         ubuntu: ["Ubuntu", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
         sans: ["sans", "sans-serif"],
+        Roboto: ["Roboto", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
       },
     },
   },

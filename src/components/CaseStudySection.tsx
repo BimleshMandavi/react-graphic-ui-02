@@ -68,11 +68,11 @@ const CaseStudySection = () => {
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start">
               <div>
                 <p className="text-3xl sm:text-5xl text-green-400">250%</p>
-                <p className="text-xs sm:text-sm mt-4 text-gray-300">Increase in Click Rate</p>
+                <p className="text-xs mt-4 sm:text-lg text-[#c3ccd3] font-Inter">Increase in Click Rate</p>
               </div>
               <div>
                 <p className="text-3xl sm:text-5xl text-green-400">192k+</p>
-                <p className="text-xs sm:text-sm mt-4 text-gray-300">Leads Generated with Creatives</p>
+                <p className="text-xs sm:text-lg mt-4 text-[#c3ccd3] font-Inter">Leads Generated with Creatives</p>
               </div>
             </div>
             <a

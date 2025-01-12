@@ -215,7 +215,7 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-white text-gray-800 border-t border-gray-200 sm:px-28"
+      className="bg-[#ffffff] text-gray-800 border-t border-gray-200 sm:px-28"
     >
       <div className="container mx-auto px-4 sm:pr-14 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1 */}

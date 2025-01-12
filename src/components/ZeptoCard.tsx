@@ -54,22 +54,18 @@ export default function ZeptoSlider() {
       >
         {/* Left Section */}
         <div className="flex flex-col items-center  md:items-start w-full ">
-          <img className ="rounded-lg sm:pr-10 w-[200px]" src="/pic-14.png" />
+          <img className ="rounded-lg sm:pr-10 w-[200px]" src={testimonial.image} />
 
           <div className="mt-4 text-center md:text-left ">
-            <p className="font-medium text-gray-700">Sanskruti Verma</p>
-            <p className="text-sm text-gray-500">Visual Design Manager</p>
+            <p className="font-medium text-gray-700">{testimonial.name}</p>
+            <p className="text-sm text-gray-500">{testimonial.role}</p>
           </div>
         </div>
 
         {/* Right Section */}
         <div className="text-gray-700 sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6 shadow-lg rounded-lg max-w-4xl">
           <p>
-            Zepto has partnered with us to enhance our brand’s visual identity
-            through expert graphic design. This collaboration drives revenue
-            growth by creating high-quality, engaging designs that resonate with
-            our audience. Together, we’re scaling our brand and staying ahead in
-            a competitive market.
+            {testimonial.feedback}
           </p>
           <a
             href="#"
