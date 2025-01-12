@@ -132,7 +132,8 @@ export default function BenefitSection() {
         >
 
           <div className='sm:w-[70%]  '>
-            <h3 className="text-4xl font-bold sm:mt-16 sm:px-14  sm:mb-8">Hire Us or On-board Top 1% Creative Talent ✨</h3>
+            <h3 className="text-4xl font-bold sm:mt-16 sm:px-14  ">Hire Us or On-board</h3>
+            <h3 className="text-4xl font-bold  sm:px-14  sm:mb-8">Top 1% Creative Talent ✨</h3>
             <p className="text-xl sm:px-14">
               Collaborate with our expert team for tailored, high-quality
               designs aligned with your brand’s goals, or onboard top
