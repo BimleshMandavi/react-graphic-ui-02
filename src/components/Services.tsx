@@ -130,7 +130,7 @@ export default function TakeAdvantageSection() {
       <div className="container mx-auto">
         <motion.h2
          
-          className="text-3xl md:text-7xl ml-8 font-medium font-raleway text-black pb-12"
+          className="text-3xl md:text-6xl ml-8 font-medium font-raleway text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -141,7 +141,7 @@ export default function TakeAdvantageSection() {
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-6 sm:ml-4 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
+              className="bg-white p-4 sm:ml-4 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}
@@ -154,7 +154,7 @@ export default function TakeAdvantageSection() {
                 />
                 <h3 className="text-2xl text-black  font-semibold font-sans  text-center">{item.title}</h3>
               </div>
-              <p className="text-2xl text-gray-600 font-raleway p-6 text-justify">{item.description}</p>
+              <p className="text-xl text-gray-600 font-raleway px-10 text-justify">{item.description}</p>
             </motion.div>
           ))}
         </div>
