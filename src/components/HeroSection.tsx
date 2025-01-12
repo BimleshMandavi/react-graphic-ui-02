@@ -73,7 +73,7 @@ import { SiAdobe } from "react-icons/si";
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-           <p>Driving Sales</p> <p> and Capturing</p> Attention Through <div className="text-yellow-400">Graphic Designs</div>
+           <p className='mb-3'>Driving Sales</p> <p className='mb-3'> and Capturing</p><p className='mb-3'> Attention Through </p><div className="text-yellow-400">Graphic Designs</div>
           </motion.h1>
            <motion.p
             className="text-lg md:text-xl mb-6 sm:ml-8 sm:text-start py-3 leading-relaxed"

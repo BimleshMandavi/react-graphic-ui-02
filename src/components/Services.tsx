@@ -130,7 +130,7 @@ export default function TakeAdvantageSection() {
       <div className="container mx-auto">
         <motion.h2
          
-          className="text-3xl md:text-6xl ml-8 text-center text-black pb-12"
+          className="text-3xl md:text-6xl ml-8 r text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -154,7 +154,7 @@ export default function TakeAdvantageSection() {
                 />
                 <h3 className="text-2xl text-black  font-bold mb-2">{item.title}</h3>
               </div>
-              <p className="text-lg text-gray-600">{item.description}</p>
+              <p className="text-2xl text-gray-600  text-justify">{item.description}</p>
             </motion.div>
           ))}
         </div>
