@@ -32,12 +32,13 @@ function FeaturesSection() {
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-3xl md:text-7xl sm:max-w-[800px] sm:ml-80  text-center  mb-12"
+            className="text-3xl md:text-7xl font-semibold font-raleway  space-y-4    text-center  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Engaging Visual Creatives That Drive Results
+            <p className='mb-3'>Engaging Visual Creatives</p>
+            <p>That Drive Results</p> 
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, index) => (

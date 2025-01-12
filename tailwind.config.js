@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Ubuntu", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
+        sans: ["sans", "sans-serif"],
       },
     },
   },

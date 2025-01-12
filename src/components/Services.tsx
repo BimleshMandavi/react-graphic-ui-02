@@ -122,7 +122,7 @@ export default function TakeAdvantageSection() {
     <motion.section
       id="take-advantage"
      
-      className="bg-gray-100 sm:py-16 pt-8 mb-8 sm:px-20"
+      className="bg-[#ffffff] sm:py-16 pt-8 mb-8 sm:px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -130,7 +130,7 @@ export default function TakeAdvantageSection() {
       <div className="container mx-auto">
         <motion.h2
          
-          className="text-3xl md:text-6xl ml-8 r text-black pb-12"
+          className="text-3xl md:text-7xl ml-8 font-medium font-raleway text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -141,7 +141,7 @@ export default function TakeAdvantageSection() {
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-8 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
+              className="bg-white p-6 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}
@@ -152,9 +152,9 @@ export default function TakeAdvantageSection() {
                   alt={item.title}
                   className="w-10 h-10 mb-4"
                 />
-                <h3 className="text-2xl text-black  font-bold mb-2">{item.title}</h3>
+                <h3 className="text-2xl text-black  font-semibold font-sans  text-center">{item.title}</h3>
               </div>
-              <p className="text-2xl text-gray-600  text-justify">{item.description}</p>
+              <p className="text-2xl text-gray-600 font-raleway p-6 text-justify">{item.description}</p>
             </motion.div>
           ))}
         </div>
