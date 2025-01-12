@@ -42,10 +42,11 @@ export default function ZeptoSlider() {
   };
 
   return (
+
     <div className="sm:mt-20 sm:mx-24 relative">
       <Slider {...settings}>
       {testimonials.map((testimonial, index) => (
-        <div className="sm:flex sm:items-center sm:justify-center sm:h-80  sm:mx-24  sm:ml-40">
+        <div className="sm:flex  sm:items-center sm:justify-center sm:h-80   sm:mx-24  sm:ml-40">
       <motion.div
         className="flex flex-col md:flex-row items-center gap-10   rounded-lg max-w-4xl"
         initial={{ opacity: 0, y: 50 }}
@@ -96,8 +97,8 @@ export default function ZeptoSlider() {
         .slick-dots li button:before {
           font-size: 12px;
           color: rgba(0, 0, 0, 0.5); /* Default dot color */
-        }
-
+          }
+          
         .slick-dots li.slick-active button:before {
           color: #1600ea; /* Active dot color */
         }

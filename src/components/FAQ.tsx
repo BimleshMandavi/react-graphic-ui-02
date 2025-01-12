@@ -36,7 +36,7 @@ const toggleQuestion = (id: number) => {
               <span className="text-lg mb-8 font-semibold  break-words sm:text-3xl">
                 {id}. {question}
               </span>
-              <button className="text-white font-bold text-xl text-center sm:text-3xl lg:text-3xl rounded-full w-10 h-10 bg-[#1600ea] t">
+              <button className="text-white font-bold text-xl text-center sm:text-3xl lg:text-3xl sm:mb-10 rounded-full w-12 h-12 bg-[#1600ea] t">
                 {openQuestion === id ? '×' : '+'}
               </button>
             </div>

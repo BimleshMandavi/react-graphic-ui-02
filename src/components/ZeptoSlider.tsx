@@ -27,7 +27,8 @@ function ZeptoSlider() {
 
   return (
     <>
-      <div className="slider-container">
+
+      <div className="slider-container ">
         <Slider {...settings}>
           <div>
             {/* Left Section */}
