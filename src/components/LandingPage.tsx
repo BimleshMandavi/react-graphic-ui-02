@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function LandingPage() {
   return (
-    <div className="flex items-center justify-center h-full sm:h-[400px] bg-[#1600ea] w-full overflow-x-hidden sm:px-6 md:px-20 p-6">
+    <div className="flex items-center justify-center h-full sm:h-[400px]  bg-[#1600ea] w-full overflow-x-hidden sm:px-6 md:px-20 p-6">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
