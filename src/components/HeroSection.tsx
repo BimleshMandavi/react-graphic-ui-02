@@ -102,7 +102,7 @@ import { SiAdobe } from "react-icons/si";
         </motion.section>
 
       </div>
-     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-20  ml-20 translate-x-16">
+     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-20  ml-20 translate-x-20">
   <SiAdobe className="w-9 h-9" />
   <span className="text-3xl font-ubuntu ">Adobe</span>
 </div>
